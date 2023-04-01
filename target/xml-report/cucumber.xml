@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="3.626">
-    <testcase classname="You can log in to the system with your email and password" name="_2" time="3.026">
-        <system-out><![CDATA[* Api kullanicisi "api, login" path parametreleri set eder..................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.787">
+    <testcase classname="Bir kullanici olarak API baglantisi üzerinden profilime adres kayit etmek, adreslerimi görüntülemek, güncelelmek ve silebilmek istiyorum." name="/api/profile/customerAddressUpdate/(x) endpoint'ine gecerli authorization bilgileri ve gerekli verileri iceren bir PATCH request body  gönderildiginde dönen status code'in 202 ve response body'deki message bilgisinin  &quot;address updated successfully&quot; oldugu dogrulanmali." time="0.159">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[* Api kullanicisi "api,profile,customerAddressUpdate,384" path parametreleri set eder.passed
+* Api kullanicisi customerAddressUpdate PATCH yapmak icin valid body hazirlar.undefined
+]]></failure>
     </testcase>
 </testsuite>
